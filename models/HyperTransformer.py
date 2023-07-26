@@ -558,8 +558,8 @@ class HyperTransformer(nn.Module):
         self.factor = 4
 
         # Parameter setup
-        self.num_res_blocks = [16, 4, 4, 4, 4]
-        self.n_feats = 64
+        self.num_res_blocks = [16, 4, 4] #, 4, 4
+        self.n_feats = 256
         self.res_scale = 1
 
         # FE-PAN & FE-HSI
