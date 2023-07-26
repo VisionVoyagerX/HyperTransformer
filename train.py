@@ -79,7 +79,7 @@ def main():
     val_steps = 100
 
     # summary(model, pan_example, mslr_example, verbose=1)
-    sum_res = summary(model, [(1, 1, 64, 64), (1, 4, 16, 16)],
+    sum_res = summary(model, [(1, 1, 256, 256), (1, 4, 64, 64)],
                       dtypes=[torch.float32, torch.float32], verbose=0)
     print(f"Trainable params {sum_res.trainable_params}\n")
     print(f'Mult-adds: {(13256369792 / 1e9):.2f} G')
