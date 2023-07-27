@@ -1,4 +1,5 @@
 # PanFormer
+
 PanFormer pansharpenning method implemented in pytorch
 
 Pretrained model is provided
@@ -73,21 +74,23 @@ Params size (MB): 2.02
 Estimated Total Size (MB): 102.27
 ==========================================================================================
 ```
+
 # Quantitative Results
+
 ## GaoFen-2
 
-![alt text](https://github.com/nickdndndn/PanFormer/blob/main/results/Figures.png?raw=true)
+![alt text](https://github.com/nickdndndn/HyperTransformer/blob/main/results/Figures.png?raw=true)
 
 ## WorldView-3
 
-![alt text](https://github.com/nickdndndn/PanFormer/blob/main/results/Figures.png?raw=true)
+![alt text](https://github.com/nickdndndn/HyperTransformer/blob/main/results/Figures.png?raw=true)
 
 # Qualitative Results
+
 ## GaoFen-2
 
-![alt text](https://github.com/nickdndndn/PanFormer/blob/main/results/Images.png?raw=true)
+![alt text](https://github.com/nickdndndn/HyperTransformer/blob/main/results/Images.png?raw=true)
 
 ## WorldView-3
 
-![alt text](https://github.com/nickdndndn/PanFormer/blob/main/results/Images.png?raw=true)
-
+![alt text](https://github.com/nickdndndn/HyperTransformer/blob/main/results/Images.png?raw=true)
